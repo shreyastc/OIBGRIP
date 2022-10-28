@@ -16,7 +16,7 @@ public class GuessNum {
           System.out.println("\nWELCOME TO GUESSING NUMBER GAME!");
           System.out.println("\nLet us Start Guessing Guessing!");
          
-          while( attempts<4 ){
+          while( attempts<3 ){
          
           System.out.println("\nGuess the Number: ");
           guess=sc.nextInt();
@@ -48,7 +48,7 @@ public class GuessNum {
     }
  attempts+=1;
  }
-     if(attempts==4) {
+     if(attempts==3) {
    
     points=0;
     System.out.println("\nYou are out of chances! Sorry");
